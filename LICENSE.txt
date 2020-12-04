@@ -1,0 +1,4 @@
+Copyright (C) 2020 Ken Webb and Andrea Cocks
+
+MIT (http://opensource.org/licenses/MIT)
+The Gatineau Wildflower Project code is available under the terms of the MIT license.
