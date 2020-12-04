@@ -18,6 +18,8 @@ atom .
 git init
 git status
 git add .
+git commit -m "initial commit"
+git log
 yarn install  success Already up-to-date.
 - delete all the flower images except for one
 - delete all items in plants.js, except for the one that refers to the flower image
@@ -32,3 +34,11 @@ To backup
 ---------
 cd ~/AAA_GatWldFlwr/Expo/Snack
 tar -pczf gwpCranberry_002.tar.gz --exclude=/home/ken/AAA_GatWldFlwr/Expo/Snack/gwpCranberry/.git/* --exclude=/home/ken/AAA_GatWldFlwr/Expo/Snack/gwpCranberry/assets/gwp/images/* --exclude=/home/ken/AAA_GatWldFlwr/Expo/Snack/gwpCranberry/node_modules/* --exclude=/home/ken/AAA_GatWldFlwr/Expo/Snack/gwpCranberry/.expo/*  /home/ken/AAA_GatWldFlwr/Expo/Snack/gwpCranberry
+
+To add as a github repo
+-----------------------
+- create a private repo on github
+git remote add origin https://github.com/kenwebb/gwpCranberry.git
+git remote show
+git remote show origin
+git push origin master

@@ -12,5 +12,5 @@ web-build/
 # macOS
 .DS_Store
 
-assets/gwp/images
+#assets/gwp/images
 i18nExample.js.txt
